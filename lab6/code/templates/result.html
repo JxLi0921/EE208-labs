@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title> Result </title>
+	</head>
+<body>
+	<h1>Search for: </h1>
+	<hr>
+	<ul>
+		{% if title != '' %}
+		<li> <h3> title: {{title}} </h3> </li>
+		{% endif %}
+
+		{% if author != '' %}
+		<li> <h3> author: {{author}} </h3></li>
+		{% endif %}
+
+		{% if photography != '' %}
+		<li> <h3> photography: {{photography}} </h3></li>
+		{% endif %}
+
+		{% if source != '' %}
+		<li> <h3> source: {{source}} </h3> </li>
+		{% endif %}
+
+		{% if contents != '' %}
+		<li> <h3> contents: {{contents}} </h3> </li>
+		{% endif %}
+	</ul>
+	<br>
+	<br>
+	{% if results  %}
+		<h1> Results: </h1>
+		<p> 共有 {{ len_res }} 条搜索结果</p>
+		{% for result in results %}
+		<div>
+			<img src="{{result['imgaddr']}}" style="float:right" width="250px"></img>
+			<p>title: {{result['title']|safe}}</p>
+			<p>
+				author: 
+					{% if result['author'] != '' %} 
+						{{result['author']|safe}}
+					{% else %} 
+						{{ None }}
+					{% endif %}
+			</p>
+			
+			<p>
+				photography: 
+					{% if result['photography'] != '' %} 
+						{{result['photography']|safe}}
+					{% else %} 
+						{{ None }}
+					{% endif %}
+			</p>
+			<p >
+				source: 
+					{% if result['source'] != '' %} 
+						{{result['source']|safe}}
+					{% else %} 
+						{{ None }}
+					{% endif %}
+			</p>
+			<p>contents: {{result['contents']|safe}}</p>
+			<p>url: <a href="{{result['url']}}">{{result['url']}}</a></p>
+		</div>
+		<br>
+		<br>
+		{% endfor %}
+	{% else %}
+		<h1> Sorry, no suitable results. </h1>
+	{% endif %}
+</body>
+</html>

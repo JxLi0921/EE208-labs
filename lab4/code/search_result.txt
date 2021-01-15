@@ -1,0 +1,70 @@
+id:1, 
+title:  
+, 
+path: htmls/httpsso.csdn.netsosearchs.dotdocuqPython.html, 
+name: httpsso.csdn.netsosearchs.dotdocuqPython.html, 
+url: b'https://so.csdn.net/so/search/s.do?t=doc&u=&q=Python', 
+score: 0.34691736102104187 
+id:2, 
+title: Python 简介 | 菜鸟教程 
+, 
+path: htmls/httpswww.runoob.compythonpython-intro.html.html, 
+name: httpswww.runoob.compythonpython-intro.html.html, 
+url: b'https://www.runoob.com/python/python-intro.html', 
+score: 0.3468984365463257 
+id:3, 
+title: Python 基础教程 | 菜鸟教程 
+, 
+path: htmls/httpswww.runoob.compython.html, 
+name: httpswww.runoob.compython.html, 
+url: b'https://www.runoob.com/python', 
+score: 0.34685179591178894 
+id:4, 
+title: 新人求助！Mac已安装jieba库，但是python运行jieba库一直出错，也没有结果输出，看了好多帖子都找不到答案，求大神指点！-CSDN问答 
+, 
+path: htmls/httpsask.csdn.netquestions1095781.html, 
+name: httpsask.csdn.netquestions1095781.html, 
+url: b'https://ask.csdn.net/questions/1095781', 
+score: 0.34684860706329346 
+id:5, 
+title: Python 条件语句 | 菜鸟教程 
+, 
+path: htmls/httpswww.runoob.compythonpython-if-statement.html.html, 
+name: httpswww.runoob.compythonpython-if-statement.html.html, 
+url: b'https://www.runoob.com/python/python-if-statement.html', 
+score: 0.3465953469276428 
+id:6, 
+title: Python File(文件) 方法 | 菜鸟教程 
+, 
+path: htmls/httpswww.runoob.compythonfile-methods.html.html, 
+name: httpswww.runoob.compythonfile-methods.html.html, 
+url: b'https://www.runoob.com/python/file-methods.html', 
+score: 0.346574991941452 
+id:7, 
+title: Python3开发详解-1-什么是Python-郭宏志的在线视频教程 
+, 
+path: htmls/httpsedu.csdn.netcoursedetail6115.html, 
+name: httpsedu.csdn.netcoursedetail6115.html, 
+url: b'https://edu.csdn.net/course/detail/6115', 
+score: 0.3465272784233093 
+id:8, 
+title:  
+, 
+path: htmls/httpsso.csdn.netsosearchs.doqpython.html, 
+name: httpsso.csdn.netsosearchs.doqpython.html, 
+url: b'https://so.csdn.net/so/search/s.do?q=python', 
+score: 0.34643328189849854 
+id:9, 
+title: Python达人_燕大侠v_CSDN博客-Python学习,编程,程序员领域博主 
+, 
+path: htmls/httpsblog.csdn.netqq_41597912.html, 
+name: httpsblog.csdn.netqq_41597912.html, 
+url: b'https://blog.csdn.net/qq_41597912', 
+score: 0.34632059931755066 
+id:10, 
+title: qq_43058731的博客_孤傲帝_CSDN博客-Python,web开发,Python开发领域博主 
+, 
+path: htmls/httpsblog.csdn.netqq_43058731.html, 
+name: httpsblog.csdn.netqq_43058731.html, 
+url: b'https://blog.csdn.net/qq_43058731', 
+score: 0.3462579846382141 
